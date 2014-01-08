@@ -1,6 +1,6 @@
 # Randr
 
-TODO: Write a gem description
+Simple wrapper for random number generation in Ruby. Toy project that works around the info provided by [this][stackoverflow] StackOverflow answer.
 
 ## Installation
 
@@ -18,12 +18,13 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+require "randr"
 
-## Contributing
+gen = Randr::Generator.new
 
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+nums = gen.times(3).from(0).to(11)
+# => [0, 1, 10]
+```
+
+[stackoverflow]: http://stackoverflow.com/a/198470/1031374

@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Randr::VERSION
   spec.authors       = ["Ignacio Contreras Pinilla"]
   spec.email         = ["ignacio@ignacio.cat"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
+  spec.description   = %q{Toy project. Simple wrapper for the Random class}
+  spec.summary       = %q{Simple wrapper for the Random class}
+  spec.homepage      = "http://github.com/ignc/randr"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
